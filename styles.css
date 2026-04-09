@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.start {
+  background-color: blue;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.creator {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+.start:hover {
+  background-color: darkblue;
+}
