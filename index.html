@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Math Boost</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SAT Math Boost</div>
+
+    <nav class="nav-links">
+      <button onclick="showSection('home')">Home</button>
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('lessons')">Lessons</button>
+      <button onclick="showSection('tips')">LifeHacks</button>
+      <button onclick="showSection('mistakes')">Mistakes</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section active">
+      <div class="hero">
+        <p class="creator">Created by Rufat</p>
+        <h1>Stop Guessing. Start Solving.</h1>
+        <p class="subtitle">
+          A free platform designed to help students improve their SAT Math score step by step.
+        </p>
+        <button class="main-btn" onclick="showSection('lessons')">Get Started</button>
+      </div>
+
+      <div class="feature-grid">
+        <div class="card">
+          <h2>Structured Lessons</h2>
+          <p>
+            Students can study by topic instead of feeling lost and exhausted. Each lesson focuses on one crucial SAT Math area.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Clear Explanations</h2>
+          <p>
+            The goal is to explain math in a simple and direct way so that students understand the idea, not just memorize.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Free Support</h2>
+          <p>
+            This project is meant to make SAT Math preparation more accessible for students who need useful materials for free.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h1>About This Project</h1>
+
+      <div class="card large-card">
+        <p>
+          This website was created to help students prepare for the SAT Math section for free.
+          Many students struggle not because they lack ability, but because explanations are often
+          too complicated, too fast, or badly organized.
+        </p>
+
+        <p>
+          The purpose of SAT Math Boost is to make SAT Math more understandable, more accessible,
+          and less stressful. It provides topic-based lessons, clear explanations, and practical
+          guidance for students who want to improve step by step.
+        </p>
+
+        <p>
+          This project also reflects an interest in combining education and technology. A simple
+          digital platform can make learning more organized and can help students focus on progress
+          instead of confusion.
+        </p>
+      </div>
+    </section>
+
+    <section id="lessons" class="section">
+      <h1>Lessons</h1>
+      <p class="subtitle">Topic-based materials for SAT Math preparation</p>
+
+      <div class="lesson-grid">
+        <div class="lesson-card">
+          <h2>Heart of Algebra (Linear Equations)</h2>
+          <p>
+            This section is all about linear equations and graphs. The SAT wants to see if you can model real-world situations using straight lines.The Strategy: Always look for the "starting point" and the "rate." In any linear story, the starting value is your y-intercept, and the rate at which things change is your slope.The Challenge: Problems where a system of two equations has "no solution."Example Case: Imagine you have two equations like kx - 3y = 4 and 4x - 5y = 7. If the problem says there is no solution, it means the two lines are parallel and will never touch. To solve this, you just need to make sure the slopes are identical. By rearranging them, you find that the ratio of x to y must be the same in both lines. It’s a game of proportions rather than complex math.
+          </p>
+        </div>
+
+        <div class="lesson-card">
+          <h2> Advanced Math (Curves and Growth)</h2>
+          <p>
+            This is where things get curvy. You'll deal with parabolas (quadratics) and exponential growth.The Strategy: Get comfortable with the "Vertex Form." It’s a specific way of writing an equation that tells you exactly where the highest or lowest point of a curve sits without doing any extra work.The Challenge: Finding the peak or valley of a path.Example Case: If you are given a quadratic function and asked for its minimum value, don't panic. You can find the middle point between the two spots where the curve hits the x-axis. Once you have that middle x value, plug it back into the equation to find the y value—that is your "k" or your minimum point.
+          
+          </p>
+        </div>
+
+        <div class="lesson-card">
+          <h2>Problem Solving and Data Analysis</h2>
+          <p>
+           This section tests your "adulting" math: reading charts, calculating percentages, and understanding probabilities.
+
+The Strategy: Read the labels! The SAT loves to trick you by asking for a percentage of a specific group (like "only the females in the study") rather than the whole group.
+
+The Challenge: Understanding how one "weird" number (an outlier) changes the data.
+
+Example Case: If a group of students all score around 70 on a test, and then one genius scores a 100, the "Average" (mean) will jump up significantly. However, the "Median" (the middle score) will barely move. The SAT often asks which one is more "reliable"—usually, it's the median when there's a weird outlier.
+          </p>
+        </div>
+
+        <div class="lesson-card">
+          <h2>Geometry Basics</h2>
+          <p>
+          You’ll see triangles, circles, and 3D shapes. You don't need to be an architect, but you need to know your angles.The Strategy: Master the "30-60-90" and "45-45-90" triangles. These special triangles are the SAT’s favorite shortcut. If you recognize them, you can find side lengths in seconds without a calculator.The Challenge: Finding the radius of a circle from a messy-looking equation.Example Case: You might get a long equation like x^2 + y^2 - 10x + 6y = 2 and be asked for the radius. The trick is "completing the square." You group the x terms and y terms, add some numbers to both sides to make them perfect squares, and suddenly the equation reveals the radius on the right side.
+          </p>
+        </div>
+
+        <div class="lesson-card">
+          <h2>Trigonometry</h2>
+          <p>
+            This is usually only a few questions, but they are high-value. It’s mostly about sine, cosine, and tangent.The Strategy: Remember the "Co-function" rule. It sounds fancy, but it just means that the Sine of one angle in a right triangle is exactly the same as the Cosine of the other angle.The Challenge: Converting degrees to radians.Example Case: If you see an angle of 90 degrees, that is the same as п/2 in radians. The SAT might ask you for the length of a "crust" of a pizza slice (arc length). If you know the angle in radians and the radius, you just multiply them together. Simple as that.
+          </p>
+        </div>
+
+        <div class="lesson-card">
+          <h2>Interpreting Expressions</h2>
+          <p>
+            This is less about solving and more about "translating" math into English.The Strategy: Don't calculate—interpret. If you see a number like 1.05 in an equation about money, it almost always means a 5% increase.The Challenge: Explaining what a single number represents in a giant formula.Example Case: In a formula like Cost = 50h + 100, where h is hours, the 50 is the hourly rate and the 100 is the flat setup fee. The SAT will ask "What does the 100 represent?" and you simply choose the answer that says "the initial cost."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips" class="section">
+      <h1>Tips for Students</h1>
+
+      <div class="card large-card">
+        <ul class="tips-list">
+          <li>Read the entire question before solving.</li>
+          <li>Underline key numbers and conditions.</li>
+          <li>Do not rush into calculations too early.</li>
+          <li>Check whether the answer makes sense.</li>
+          <li>Review mistakes after practice instead of ignoring them.</li>
+          <li>Memorize core formulas and practice applying them quickly.</li>
+          <li>Always double check questions with desmos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="mistakes" class="section">
+      <h1>Common Mistakes</h1>
+
+      <div class="feature-grid">
+        <div class="card">
+          <h2>Misreading the Question</h2>
+          <p>
+            Many students solve for the wrong thing because they read too quickly. Always check exactly what is being asked.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Forgetting Negative Signs</h2>
+          <p>
+            A small sign mistake can destroy the whole solution. Pay close attention when moving terms or simplifying expressions.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Using the Wrong Formula</h2>
+          <p>
+            In geometry and algebra, choosing the correct formula matters as much as calculating correctly.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Not Checking the Answer</h2>
+          <p>
+            Even a quick check can catch simple mistakes. Good students do not only solve, they verify.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h1>Contact</h1>
+
+      <div class="card large-card">
+        <p>
+          This is an educational project currently under development.
+        </p>
+        <p>Email: rufat.bashirov.2803@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 SAT Math Boost. Built to help students learn for free.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
